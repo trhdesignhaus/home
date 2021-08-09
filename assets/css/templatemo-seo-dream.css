@@ -20,8 +20,8 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@300;400;600;700;800&display=swap');
 /* 
 ---------------------------------------------
 reset
@@ -96,7 +96,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bebas Neue';
   font-weight: 400;
   background-color: #fff;
   -ms-text-size-adjust: 100%;
@@ -137,6 +137,10 @@ html,
 body {
   background: #fff;
   font-family: 'Open Sans', sans-serif;
+}
+
+.companyname {
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 ::selection {
