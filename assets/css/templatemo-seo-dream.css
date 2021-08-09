@@ -1632,6 +1632,17 @@ footer p a:hover {
   color: #B20460;
 }
 
+footer ul {
+  text-align: center;
+  flex-direction: row;
+}  
+
+.social-icons { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 /* 
 ---------------------------------------------
 responsive
